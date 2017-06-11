@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <script src="js/auto-size.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <title>猫眼电影</title>
+</head>
+<body>
+    <!--红色背景-->
+    <header></header>
+    <div class="support"></div>
+    <!--地址选择器-->
+    <input type="checkbox" id="address" name="address">
+    <label for="address" class="address">成都 <i class="fa fa-angle-down"></i></label>
+    <div class="address-list">
+            <!--热门城市-->
+            <input type="checkbox" id="hotCity" name="hotCity">
+            <label for="hotCity" class="city hotCity">
+                <span>热门城市</span>
+                <i class="fa fa-angle-down"></i>
+            </label>
+            <ul class="hotCityul">
+                    <li>北京</li>
+                    <li>上海</li>
+                    <li>广州</li>
+                    <li>深圳</li>
+                    <li>成都</li>
+                </ul>
+            <!--A城市-->
+            <input type="checkbox" id="aCity" name="aCity">
+            <label for="aCity" class="city aCity">
+                <span>A</span>
+                <i class="fa fa-angle-down"></i>
+            </label>
+            <ul class="aCityul">
+                <li>阿拉善</li>
+                <li>阿盟</li>
+            </ul>
+            <!--B城市-->
+            <input type="checkbox" id="bCity" name="bCity">
+            <label for="bCity" class="city bCity">
+                <span>B</span>
+                <i class="fa fa-angle-down"></i>
+            </label>
+            <ul class="bCityul">
+                <li>北京</li>
+                <li>北海</li>
+                <li>保定</li>
+                <li>包头</li>
+                <li>本溪</li>
+            </ul>
+            <!--C城市-->
+            <input type="checkbox" id="cCity" name="cCity">
+            <label for="cCity" class="city cCity">
+                <span>C</span>
+                <i class="fa fa-angle-down"></i>
+            </label>
+            <ul class="cCityul">
+                <li>成都</li>
+                <li>重庆</li>
+                <li>长沙</li>
+                <li>承德</li>
+            </ul>
+        </div>
+    <!--主页菜单-->
+    <div class="menu-bcg"></div>
+    <input type="radio" name="menu" id="hot">
+    <input type="radio" name="menu" id="coming" checked>
+    <input type="radio" name="menu" id="search">
+    <input type="checkbox" name="search" id="search2">
+    <label for="hot" class="menu menu1">热映</label>
+    <label for="coming" class="menu menu2">待映</label>
+    <label for="search" class="menu menu3">找片</label>
+    <label for="search2" class="search">
+        <i class="fa fa-search"></i>
+    </label>
+    <form action="" method="post" class="search-form">
+        <i class="fa fa-search search-form_i"></i>
+        <input type="search" class="search-list" placeholder="找影视剧、影人、影院">
+    </form>
+    <!--待映-->
+    <ul class="body-coming">
+                <li class="tuijian-header">&nbsp;&nbsp;预告片推荐</li>
+                <li class="tuijian-body">
+                    <ul>
+                        <li><a href="movieinfo.html"><img src="img/1-1.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/1-2.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/1-3.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/1-4.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="img/1-5.jpg" alt=""></a></li>
+                    </ul>
+                </li>
+                <li class="qidai-header">&nbsp;&nbsp;近期最受期待</li>
+                <li class="qidai-body">
+                    <ul>
+                        <li>
+                            <p>17年待定</p>
+                            <a href="movieinfo.html"><img src="img/2-1.jpg" alt=""></a>
+                            <p class="p2">美女与野兽</p>
+                            <span>3243645人想看</span>
+                            <input type="checkbox" name="like" id="like1">
+                            <label for="like1" class="like1"><i class="fa fa-heart-o"></i></label>
+                        </li>
+                        <li>
+                            <p>17年待定</p>
+                            <img src="img/2-2.jpg" alt="">
+                            <p class="p2">生化危机</p>
+                            <span>981312人想看</span>
+                            <input type="checkbox" name="like" id="like2">
+                            <label for="like2" class="like2"><i class="fa fa-heart-o"></i></label>
+                        </li>
+                        <li>
+                            <p>17年待定</p>
+                            <img src="img/2-3.jpg" alt="">
+                            <p class="p2">乐高蝙蝠侠</p>
+                            <span>153521人想看</span>
+                            <input type="checkbox" name="like" id="like3">
+                            <label for="like3" class="like3"><i class="fa fa-heart-o"></i></label>
+                        </li>
+                        <li>
+                            <p>17年待定</p>
+                            <img src="img/2-4.jpg" alt="">
+                            <p class="p2">COLOSSAL</p>
+                            <span>943645人想看</span>
+                            <input type="checkbox" name="like" id="like4">
+                            <label for="like4" class="like4"><i class="fa fa-heart-o"></i></label>
+                        </li>
+                        <li>
+                            <p>17年待定</p>
+                            <img src="img/2-5.jpg" alt="">
+                            <p class="p2">5月31日</p>
+                            <span>383123人想看</span>
+                            <input type="checkbox" name="like" id="like5">
+                            <label for="like5" class="like5"><i class="fa fa-heart-o"></i></label>
+                        </li>
+                    </ul>
+                </li>
+                <li class="day10-23-header">&nbsp;&nbsp;10月23日 周三</li>
+                <li class="day10-23-body day-body">
+                    <ul>
+                        <li>
+                            <img src="img/3-1.jpg" alt="">
+                            <div>
+                                <h1>欢乐好声音</h1>
+                                <p><span>6123</span>人想看</p>
+                                <small>动物也疯狂</small>
+                                <small>迪士尼动画片</small>
+                            </div>
+                            <button class="xiangkan"><i class="fa fa-heart-o"> 想看</i></button>
+                            <a href="login.html"> <i class="fa fa-play"></i></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="day11-11-header">&nbsp;&nbsp;11月11日 周五</li>
+                <li class="day11-11-body day-body">
+                    <ul>
+                        <li>
+                            <img src="img/3-2.jpg" alt="">
+                            <div>
+                                <h1>爱乐之城</h1>
+                                <p><span>423422</span>人想看</p>
+                                <small>唯美的音乐</small>
+                                <small>奥斯卡提名</small>
+                            </div>
+                            <button class="yushou">预售</button>
+                            <a href="#"> <i class="fa fa-play"></i></a>
+                        </li>
+                        <li>
+                            <img src="img/3-3.jpg" alt="">
+                            <div>
+                                <h1>目击证人</h1>
+                                <p><span>92312</span>人想看</p>
+                                <small>惊心动魄</small>
+                                <small>好莱坞犯罪</small>
+                            </div>
+                            <button class="yushou">预售</button>
+                            <a href="#"> <i class="fa fa-play"></i></a>
+                        </li>
+                        <li>
+                            <img src="img/3-4.jpg" alt="">
+                            <div>
+                                <h1>WOLYN</h1>
+                                <p><span>45123</span>人想看</p>
+                                <small>战争的影音</small>
+                                <small>好莱坞巨制</small>
+                            </div>
+                            <button class="yushou">预售</button>
+                            <a href="#"> <i class="fa fa-play"></i></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+    <!--热映-->
+    <ul class="body-hot">
+        <nav class="body-hot_banner">
+            <a href="#"><img src="img/banner-1.jpg" alt=""></a>
+            <a href="#"><img src="img/banner-2.jpg" alt=""></a>
+            <a href="#"><img src="img/banner-3.jpg" alt=""></a>
+        </nav>
+        <ul class="body-hot_movie">
+            <li>
+                <img src="img/4-1.jpg" alt="">
+                <div>
+                    <h1>一条狗的使命</h1>
+                    <p>观众 <span>9.2</span></p>
+                    <small>动物亲情</small>
+                    <small>好莱坞</small>
+                </div>
+                <button class="xiangkan"><i class="fa fa-heart-o"> 购票</i></button>
+                <a href="login.html"> <i class="fa fa-play"></i></a>
+                <p class="news1">
+                    <i>资讯</i>
+                    <span>好莱坞最感人的宠物感情</span>
+                </p>
+                <p class="news2">
+                    <i>资讯</i>
+                    <span>继《忠犬八公》又一感人力作</span>
+                </p>
+
+            </li>
+            <li>
+                <img src="img/4-2.jpg" alt="">
+                <div>
+                    <h1>绑架者</h1>
+                    <p>观众 <span>6.8</span></p>
+                    <small>犯罪／枪战</small>
+                    <small>黄立行</small>
+                </div>
+                <button class="xiangkan"><i class="fa fa-heart-o"> 购票</i></button>
+                <a href="#"> <i class="fa fa-play"></i></a>
+            </li>
+            <li>
+                <img src="img/4-3.jpg" alt="">
+                <div>
+                    <h1>工壳机动队</h1>
+                    <p>观众 <span>3.3</span></p>
+                    <small>人机合体</small>
+                    <small>加里斯·约翰逊</small>
+                </div>
+                <button class="xiangkan"><i class="fa fa-heart-o"> 购票</i></button>
+                <a href="#"> <i class="fa fa-play"></i></a>
+            </li>
+            <li>
+                <img src="img/4-4.jpg" alt="">
+                <div>
+                    <h1>大海</h1>
+                    <p>观众 <span>6.0</span></p>
+                    <small>爱情</small>
+                    <small>韩国KBS</small>
+                </div>
+                <button class="xiangkan"><i class="fa fa-heart-o"> 购票</i></button>
+                <a href="#"> <i class="fa fa-play"></i></a>
+            </li>
+            <li>
+                <img src="img/4-5.jpg" alt="">
+                <div>
+                    <h1>战争</h1>
+                    <p>观众 <span>9.0</span></p>
+                    <small>历史／战争</small>
+                    <small>阿米尔</small>
+                </div>
+                <button class="xiangkan"><i class="fa fa-heart-o"> 购票</i></button>
+                <a href="#"> <i class="fa fa-play"></i></a>
+            </li>
+        </ul>
+    </ul>
+
+
+
+    <!--支撑脚部-->
+    <div class="support-bottom"></div>
+    <!--脚部-->
+    <footer class="allfooter">
+        <a class="indexA"> <i class="fa fa-film"></i> <span>电影</span></a>
+        <a href="cinema.html"> <i class="fa fa-home"></i> <span>影院</span></a>
+        <a href="find.html"> <i class="fa fa-feed"></i> <span>发现</span></a>
+        <a href="login.html"> <i class="fa fa-smile-o"></i> <span>我的</span></a>
+    </footer>
+</body>
+</html>

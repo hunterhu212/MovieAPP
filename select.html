@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电影选座</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <script src="js/auto-size.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+<body>
+    <!--页面头部-->
+    <header class="loginHeader">
+        <a href="cinema-1.html">
+        <i class="fa fa-angle-left"></i>
+    </a>
+        <div>
+        <span>欢乐好声音</span>
+        <input type="checkbox" name="cinemaLike" id="cinemaLike" disabled>
+        <label for="cinemaLike" class="cinemaLike cinemaLike-no">
+            <i class="fa fa-share-square-o"></i>
+        </label>
+    </div>
+    </header>
+    <div class="loginHeader-support"></div>
+
+    <!--影院信息-->
+    <div class="select-cinema">
+        <div class="left">
+            <p>太平洋影城（新城市店）</p>
+            <span>今天10月24日 17：30</span>
+        </div>
+        <a href="cinema-1.html">换一场</a>
+    </div>
+    <div class="select-cinema_bottom">
+        <div>
+            <span><i></i> 可选</span>
+            <span><i></i> 已售</span>
+            <span><i></i> 已选</span>
+        </div>
+    </div>
+
+    <form class="select">
+        <input type="checkbox" name="seat" id="seat1">
+        <input type="checkbox" name="seat" id="seat2">
+        <input type="checkbox" name="seat" id="seat3">
+        <input type="checkbox" name="seat" id="seat4">
+        <input type="checkbox" name="seat" id="seat5" disabled>
+        <input type="checkbox" name="seat" id="seat6">
+        <input type="checkbox" name="seat" id="seat7">
+        <input type="checkbox" name="seat" id="seat8">
+        <input type="checkbox" name="seat" id="seat9">
+        <input type="checkbox" name="seat" id="seat10">
+        <input type="checkbox" name="seat" id="seat11">
+        <input type="checkbox" name="seat" id="seat12">
+        <input type="radio" name="seatauto" id="seatauto1">
+        <input type="radio" name="seatauto" id="seatauto2">
+        <input type="radio" name="seatauto" id="seatauto3">
+        <input type="radio" name="seatauto" id="seatauto4">
+        <input type="radio" name="seatauto" id="seatauto5">
+        <input type="submit" id="selectok">
+        <div class="seatall">
+            <p>激光3号厅银幕</p>
+            <div class="row1">
+                <label for="seat1" class="seat1"></label>
+                <label for="seat2" class="seat2"></label>
+                <label for="seat3" class="seat3"></label>
+            </div>
+            <div class="row2">
+                <label for="seat4" class="seat4"></label>
+                <label for="seat5" class="seat5"></label>
+                <label for="seat6" class="seat6"></label>
+
+            </div>
+            <div class="row3">
+                <label for="seat7" class="seat7"></label>
+                <label for="seat8" class="seat8"></label>
+                <label for="seat9" class="seat9"></label>
+
+            </div>
+            <div class="row4">
+                <label for="seat10" class="seat10"></label>
+                <label for="seat11" class="seat11"></label>
+                <label for="seat12" class="seat12"></label>
+
+            </div>
+        </div>
+        <div class="seat-middle">
+            <p>推荐座位</p>
+            <label for="seatauto1" class="seatauto1">1人</label>
+            <label for="seatauto2" class="seatauto2">2人</label>
+            <label for="seatauto3" class="seatauto3">3人</label>
+            <label for="seatauto4" class="seatauto4">4人</label>
+            <label for="seatauto5" class="seatauto5">无</label>
+        </div>
+        <div class="seat-bottom">
+            <nav>
+                <p>一次最多选择5个座位</p>
+                <label for="selectok" class="selectnotok">请先选座</label>
+                <label for="selectok" class="selectisok">确&nbsp;&nbsp;认</label>
+            </nav>
+        </div>
+    </form>
+
+
+</body>
+</html>

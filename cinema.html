@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电影院</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <script src="js/auto-size.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+<body>
+    <!--红色背景-->
+    <header></header>
+    <div class="support"></div>
+    <!--地址选择器-->
+    <input type="checkbox" id="address" name="address">
+    <label for="address" class="address">成都 <i class="fa fa-angle-down"></i></label>
+    <div class="address-list">
+        <!--热门城市-->
+        <input type="checkbox" id="hotCity" name="hotCity">
+        <label for="hotCity" class="city hotCity">
+            <span>热门城市</span>
+            <i class="fa fa-angle-down"></i>
+        </label>
+        <ul class="hotCityul">
+            <li>北京</li>
+            <li>上海</li>
+            <li>广州</li>
+            <li>深圳</li>
+            <li>成都</li>
+        </ul>
+        <!--A城市-->
+        <input type="checkbox" id="aCity" name="aCity">
+        <label for="aCity" class="city aCity">
+            <span>A</span>
+            <i class="fa fa-angle-down"></i>
+        </label>
+        <ul class="aCityul">
+            <li>阿拉善</li>
+            <li>阿盟</li>
+        </ul>
+        <!--B城市-->
+        <input type="checkbox" id="bCity" name="bCity">
+        <label for="bCity" class="city bCity">
+            <span>B</span>
+            <i class="fa fa-angle-down"></i>
+        </label>
+        <ul class="bCityul">
+            <li>北京</li>
+            <li>北海</li>
+            <li>保定</li>
+            <li>包头</li>
+            <li>本溪</li>
+        </ul>
+        <!--C城市-->
+        <input type="checkbox" id="cCity" name="cCity">
+        <label for="cCity" class="city cCity">
+            <span>C</span>
+            <i class="fa fa-angle-down"></i>
+        </label>
+        <ul class="cCityul">
+            <li>成都</li>
+            <li>重庆</li>
+            <li>长沙</li>
+            <li>承德</li>
+        </ul>
+    </div>
+    <!--搜索-->
+    <input type="checkbox" name="search" id="search2">
+    <label for="search2" class="search"><i class="fa fa-search"></i></label>
+    <form action="" method="post" class="search-form">
+        <i class="fa fa-search search-form_i"></i>
+        <input type="search" class="search-list" placeholder="找影视剧、影人、影院">
+    </form>
+    <p class="cinema-header_p">影院</p>
+    <i class="cinema-header_i fa fa-filter"></i>
+    <!--banner栏-->
+    <nav class="cinema_banner">
+            <a href="#"><img src="img/111.png" alt=""></a>
+    </nav>
+
+    <!--影院列表-->
+    <nav class="cinema-body_list">
+        <a href="cinema-1.html">
+                <div class="list-left">
+                    <p class="list-left_row1">太平洋电影城(新城市店)<span>14.9</span><small>元起</small></p>
+                    <span class="list-left_row2">青羊区西大街1号城市广场A栋2楼</span>
+                    <div class="list-left_row3">
+                        <i class="i-class1">座</i>
+                        <i class="i-class1">团</i>
+                        <i class="i-class2">改签</i>
+                        <i class="i-class2">小吃</i>
+                        <i class="i-class3">折扣卡</i>
+                    </div>
+                    <p class="list-left_row4">
+                        <i class="i-class4">惠 </i>&nbsp;侠探杰克：永不回头等2部影片特惠
+                    </p>
+                </div>
+                <div class="list-right">
+                    <span>1.4km</span>
+                </div>
+    </a>
+        <a href="">
+            <div class="list-left">
+                <p class="list-left_row1">星美国际影城<span>34.9</span><small>元起</small></p>
+                <span class="list-left_row2">青羊区西大街1号城市广场A栋2楼</span>
+                <div class="list-left_row3">
+                    <i class="i-class1">座</i>
+                    <i class="i-class1">团</i>
+                    <i class="i-class2">改签</i>
+                </div>
+                <p class="list-left_row4">
+                    <i class="i-class4">惠 </i>&nbsp;《喜欢你》1元秒杀
+                </p>
+            </div>
+            <div class="list-right">
+                <span>2.5km</span>
+            </div>
+        </a>
+        <a href="">
+        <div class="list-left">
+            <p class="list-left_row1">百老汇影城<span>28.9</span><small>元起</small></p>
+            <span class="list-left_row2">青羊区西大街1号城市广场A栋2楼</span>
+            <div class="list-left_row3">
+                <i class="i-class1">座</i>
+                <i class="i-class1">团</i>
+                <i class="i-class3">折扣卡</i>
+            </div>
+            <p class="list-left_row4">
+                <i class="i-class4">惠 </i>&nbsp;欢乐好声音
+            </p>
+        </div>
+        <div class="list-right">
+            <span>9km</span>
+        </div>
+    </a>
+        <a href="">
+            <div class="list-left">
+                <p class="list-left_row1">太平洋电影城(新城市店)<span>14.9</span><small>元起</small></p>
+                <span class="list-left_row2">青羊区西大街1号城市广场A栋2楼</span>
+                <div class="list-left_row3">
+                    <i class="i-class1">座</i>
+                    <i class="i-class1">团</i>
+                    <i class="i-class2">改签</i>
+                    <i class="i-class2">小吃</i>
+                    <i class="i-class3">折扣卡</i>
+                </div>
+                <p class="list-left_row4">
+                    <i class="i-class4">惠 </i>&nbsp;侠探杰克：永不回头等2部影片特惠
+                </p>
+            </div>
+            <div class="list-right">
+                <span>1.4km</span>
+            </div>
+        </a>
+        <a href="">
+            <div class="list-left">
+                <p class="list-left_row1">太平洋电影城(新城市店)<span>14.9</span><small>元起</small></p>
+                <span class="list-left_row2">青羊区西大街1号城市广场A栋2楼</span>
+                <div class="list-left_row3">
+                    <i class="i-class1">座</i>
+                    <i class="i-class1">团</i>
+                    <i class="i-class2">改签</i>
+                    <i class="i-class2">小吃</i>
+                    <i class="i-class3">折扣卡</i>
+                </div>
+                <p class="list-left_row4">
+                    <i class="i-class4">惠 </i>&nbsp;侠探杰克：永不回头等2部影片特惠
+                </p>
+            </div>
+            <div class="list-right">
+                <span>1.4km</span>
+            </div>
+        </a>
+    </nav>
+    <!--获取位置-->
+    <div class="getAddress">
+        <span> <i class="fa fa-paper-plane"></i> 成都武侯区首航新城</span>
+        <i class="fa fa-refresh"></i>
+    </div>
+    <!--支撑脚部-->
+    <div class="support-bottom"></div>
+    <!--脚部-->
+    <footer class="allfooter">
+        <a href="index.html"> <i class="fa fa-film"></i> <span>电影</span></a>
+        <a class="cinemaA"> <i class="fa fa-home"></i> <span>影院</span></a>
+        <a href="find.html"> <i class="fa fa-feed"></i> <span>发现</span></a>
+        <a href="login.html"> <i class="fa fa-smile-o"></i> <span>我的</span></a>
+    </footer>
+
+</body>
+</html>
